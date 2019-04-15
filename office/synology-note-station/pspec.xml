@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-note-station</Name>
+        <Packager>
+            <Name>Danielle Weisz</Name>
+            <Email>dani@cyberwit.ch</Email>
+        </Packager>
+        <Summary>Note Station</Summary>
+        <Description>Note Station for desktop connects you with Note Station on your Synology NAS. You can manage all the notes/to-do list offline, right from your local computer.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="c5180d4a4dc9136036d232639c6a9b0665c182d8" type="binary">https://global.download.synology.com/download/Tools/NoteStationClient/2.1.4-245/Ubuntu/x86_64/synology-note-station-2.1.4-245-linux-x64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>   
+    </Source>
+
+    <Package>
+        <Name>synology-note-station</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>04-14-2019</Date>
+            <Version>2.1.4.245</Version>
+            <Comment>Initial inclusion.</Comment>
+            <Name>Danielle Weisz</Name>
+            <Email>dani@cyberwit.ch</Email>
+        </Update>
+    </History>
+</PISI>

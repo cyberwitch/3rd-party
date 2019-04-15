@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>synology-drive</Name>
+        <Packager>
+            <Name>Danielle Weisz</Name>
+            <Email>dani@cyberwit.ch</Email>
+        </Packager>
+        <Summary>Drive</Summary>
+        <Description>Drive for PC, the desktop utility of the DSM add-on package, Drive, allows you to sync and share files owned by you or shared by others between a centralized Synology NAS and multiple client computers.</Description>
+        <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
+        <Archive sha1sum="5cde25ec1820c48adb8d3ed5bfec4805b77f7169" type="binary">https://global.download.synology.com/download/Tools/SynologyDriveClient/1.1.4-10580/Ubuntu/Installer/x86_64/synology-drive-10580.x86_64.deb</Archive>
+        <BuildDependencies>
+                <Dependency>binutils</Dependency>
+        </BuildDependencies>   
+    </Source>
+
+    <Package>
+        <Name>synology-drive</Name>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="2">
+            <Date>04-14-2019</Date>
+            <Version>1.1.4.10580</Version>
+            <Comment>Update to 1.1.4-10580</Comment>
+            <Name>Danielle Weisz</Name>
+            <Email>dani@cyberwit.ch</Email>
+        </Update>
+        <Update release="1">
+            <Date>12-27-2018</Date>
+            <Version>1.1.3.10570</Version>
+            <Comment>Initial inclusion.</Comment>
+            <Name>Danielle Weisz</Name>
+            <Email>dani@cyberwit.ch</Email>
+        </Update>
+    </History>
+</PISI>
