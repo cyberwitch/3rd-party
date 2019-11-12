@@ -10,7 +10,7 @@
         <Summary>Drive</Summary>
         <Description>Drive for PC, the desktop utility of the DSM add-on package, Drive, allows you to sync and share files owned by you or shared by others between a centralized Synology NAS and multiple client computers.</Description>
         <License>Custom - https://www.synology.com/en-global/company/legal/terms_conditions</License>
-        <Archive sha1sum="5cde25ec1820c48adb8d3ed5bfec4805b77f7169" type="binary">https://global.download.synology.com/download/Tools/SynologyDriveClient/1.1.4-10580/Ubuntu/Installer/x86_64/synology-drive-10580.x86_64.deb</Archive>
+        <Archive sha1sum="6c6956cd80cdae79c092227351a7f00e4dd89e41" type="binary">https://global.download.synology.com/download/Tools/SynologyDriveClient/2.0.1-11061/Ubuntu/Installer/x86_64/synology-drive-client-11061.x86_64.deb</Archive>
         <BuildDependencies>
                 <Dependency>binutils</Dependency>
         </BuildDependencies>   
@@ -24,6 +24,13 @@
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>11-11-2019</Date>
+            <Version>2.0.1.11061</Version>
+            <Comment>Update to 2.0.1-11061</Comment>
+            <Name>Danielle Weisz</Name>
+            <Email>dani@cyberwit.ch</Email>
+        </Update>
         <Update release="2">
             <Date>04-14-2019</Date>
             <Version>1.1.4.10580</Version>
